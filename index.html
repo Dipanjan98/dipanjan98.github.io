@@ -963,8 +963,16 @@ difficult situations and a fantastic problem solver.”
         
             <form method="POST" action="https://formspree.io/f/xyylbgpp">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
+                 <input name="email"
+                        type="email"
+                        class="form-control"
+                        required
+                        placeholder="Email">
+               <textarea name="form-message"
+                    class="form-control"
+                    rows="5"
+                    required
+                    placeholder="Tell me more about your needs........"></textarea>
                  <button id="submit-btn"
                     class="btn btn-primary rounded-pill d-inline-flex"
                     type="submit">Send Message</button>

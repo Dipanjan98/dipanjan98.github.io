@@ -1,1 +1,1 @@
-This is my own design Portfolio.
+This is my own designed Portfolio.
